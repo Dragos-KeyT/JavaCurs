@@ -14,7 +14,7 @@ public class SalaryCalculator {
 		//tester2.ratePerHour = 45;
 		System.out.println(tester2.ratePerHour);
 
-		Tester tester3 = new Tester(25, 40, "Oana");
+		Tester tester3 = new Tester(25, 40, "Oana", "Junior");
 		System.out.println(tester3.ratePerHour);
 		System.out.println(tester3.varsta);
 		//System.out.println(tester3.nume);
@@ -24,11 +24,9 @@ public class SalaryCalculator {
 		System.out.println("Salariul lui " + tester3.nume + " este " +
 			salCalc.calculateSalary(tester3.ratePerHour));
 		
-		
+		System.out.println(tester3.nume + " este de senioritate :" + tester3.senioritate);
+				
 	}
-	
-	
-	
 	
 	public int calculateSalary(int ratePerHour) {
 		
