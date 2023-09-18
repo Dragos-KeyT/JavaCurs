@@ -39,6 +39,11 @@ public class ConditionalOperator {
 		//verific daca ambele sunt pozitive sau negative
 		result = (num1>0 && num2>0)? "Numbers are positive" :"Numbers are negative";
 		System.out.println(result);
+		//verific care este mai mare (ar putea fi egale)
+		
+		result = (num1>num2)? "Num1 is the greatest" :
+					(num2>num1)? "Num2 is the greatest" : 
+						"Numbers are equal";
 	}
 	
 }
