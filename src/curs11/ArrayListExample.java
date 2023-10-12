@@ -37,8 +37,8 @@ public class ArrayListExample {
 
 		list.add(0, "Mara");
 		//stergem din lista
-		list.remove(5);	
-		//list.remove("Ion");
+		//list.remove(5);	
+		list.remove("Ion");
 		
 		for(String nume : list) {
 			System.out.println(list.indexOf(nume) + " : " + nume);

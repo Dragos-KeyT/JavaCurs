@@ -19,7 +19,7 @@ public class ArrayListExample2 {
 		System.out.println(list.size());
 		System.out.println("---------------------------");
 		//contine element
-		System.out.println(list.contains("maro"));
+		System.out.println(list.contains("mov"));
 		
 		System.out.println("---------------------------");
 		//fac update unui element

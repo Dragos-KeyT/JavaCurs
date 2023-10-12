@@ -13,7 +13,6 @@ public class PropertiesFileProcessor {
 		
 		try(OutputStream outPutStream = new FileOutputStream("test.properties")) {
 			
-			
 			Properties propFile = new Properties();
 			propFile.setProperty("user", "TestUser");
 			propFile.setProperty("email", "TestUser@test.com");
@@ -53,6 +52,7 @@ public class PropertiesFileProcessor {
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
+		
 		//scriu in fisier
 		try(OutputStream outPutStream = new FileOutputStream("test.properties")) {
 			propFile.setProperty(key, value);
